@@ -27,6 +27,6 @@ public class Main {
             bonusPoints += number * 0.1;
         }
         System.out.printf("Bonus points: %d%n",bonusPoints);
-        System.out.printf("Number + bonus points = %d%n", (number+bonusPoints));
+        System.out.printf("Number + bonus points  = %d%n", (number+bonusPoints));
     }
 }
