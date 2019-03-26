@@ -26,7 +26,7 @@ public class Main {
         }else if(number > 1000){
             bonusPoints += number * 0.1;
         }
-        System.out.println("Bonus points: "+bonusPoints);
-        System.out.println("Number + bonus points = " + (number+bonusPoints));
+        System.out.printf("Bonus points: %d%n",bonusPoints);
+        System.out.printf("Number + bonus points = %d", (number+bonusPoints));
     }
 }
